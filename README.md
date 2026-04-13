@@ -1,4 +1,4 @@
-# ZenithBotter
+# OsirisBotter
 
 How To Use Zenith Botter?
 
@@ -28,7 +28,6 @@ npm install
 
 ```sh
 main.bat
-python Zenith.py
 ```
 
 *Thank You For Using Zenith Botter*
