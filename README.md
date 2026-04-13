@@ -30,7 +30,7 @@ npm install
 main.bat
 ```
 
-*Thank You For Using Zenith Botter*
+*Thank You For Using Osiris Botter*
 *Contact Me @.astris On Discord*
 
 ## IMPORTANT
