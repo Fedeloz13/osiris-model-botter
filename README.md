@@ -1,6 +1,6 @@
 # OsirisBotter
 
-How To Use Zenith Botter?
+How To Use Osiris Botter?
 
 ## Step 1
 
