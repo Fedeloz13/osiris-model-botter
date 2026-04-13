@@ -1,0 +1,2 @@
+pip install "aiohttp>=3.8.0" "aiofiles>=23.0.0" "asyncio-throttle>=1.0.0" "requests>=2.28.0"
+python Zenith.py

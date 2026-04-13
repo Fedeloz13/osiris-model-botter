@@ -1,0 +1,30 @@
+{
+  "name": "modelbotterv2",
+  "version": "1.0.0",
+  "description": "How To Use Zenith Botter?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.1",
+  "dependencies": {
+    "@types/node": "^24.5.1",
+    "noblox.js": "^6.2.0",
+    "rbxm-parser": "^1.1.4"
+  },
+  "pnpm": {
+    "neverBuiltDependencies": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astr3onDEV/ZenithBotter.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/astr3onDEV/ZenithBotter/issues"
+  },
+  "homepage": "https://github.com/astr3onDEV/ZenithBotter#readme"
+}
