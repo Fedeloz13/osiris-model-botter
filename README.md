@@ -7,8 +7,8 @@ How To Use Osiris Botter?
 ## Download Git
 
 ```sh
-git clone https://github.com/astr3onDEV/ZenithBotter
-cd ZenithBotter
+git clone https://github.com/Fedeloz13/osiris-model-botter.git
+cd osiris-model-botter
 ```
 
 ### Step 2
